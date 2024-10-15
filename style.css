@@ -1,0 +1,63 @@
+                /* Main  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                /* Main Body */
+body{
+    background-color: rgb(45, 97, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+            /* Age Container  */
+
+ .age-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 black;
+ }           
+
+            /* Age Header  */
+
+.age-header{
+    font-size: 2rem;  
+    font-weight: bold;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}                        
+
+             /* Label */
+
+label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.age-dob-input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.calculate-btn{
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+background-color: black;
+color: aliceblue;
+    margin-bottom: 10px;
+}
